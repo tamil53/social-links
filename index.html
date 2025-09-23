@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <style>
+        body{
+            background-color: rgb(14, 13, 13);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .profile-card{
+            background-color: rgb(51, 48, 48);
+            border-radius: 15px;
+            box-shadow: 0px 4px 4px;
+            width: 320px;
+            text-align: center;
+            padding: 2.5rem 2rem 2rem 2rem;
+        }
+        .img{
+            width: 85px;
+            height: 85px;
+            margin: 0px auto 18px auto;
+            border-radius: 50%;
+        }
+        .name{
+            margin: 0px 0px 6px 0px;
+            font-size: 24px;
+        }
+        p{
+            color: green;
+        }
+        .links{
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+        .btn{
+            background-color: rgb(65, 63, 63);
+            color: rgb(12, 12, 12);
+            border-radius: 7px;
+            font-weight: 500;
+        }
+        .btn:hover{
+            background-color:rgb(175, 255, 122);
+        } 
+    </style>
+</head>
+<body>
+    <main class="main">
+        <div class="profile-card">
+            <div class="image">
+        <img src="assets/images/avatar-jessica.jpeg" alt="profile img"></div>
+        <h2 class="name">James Randall</h2>
+        <p>london,united kingdom</p>
+        <blockquote>"front-end developer and avid reader."</blockquote>
+        <div class="links">
+            <p class="btn">GitHub</p>
+            <p class="btn">Forntend Mentor</p>
+            <p class="btn">LinkedIn</p>
+            <p class="btn">Twitter</p>
+            <p class="btn">Instagram</p>
+        </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
